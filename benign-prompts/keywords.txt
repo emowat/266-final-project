@@ -1,0 +1,122 @@
+Category,Sub_Topic
+Cloud Attacks,Cloud Attacks
+Cloud Attacks,Cross-Tenant Attacks
+Cloud Attacks,Data Integrity Attacks
+Cloud Attacks,Flask REST API Vulnerabilities
+Cloud Attacks,Image Pull Exploits
+Cloud Attacks,Phishing-as-a-Service (PhaaS)
+Cloud Attacks,Service-Level Agreement (SLA) Violations
+Cloud Attacks,Shadow IT Exploits
+Control System Attacks,Control System Attacks
+Control System Attacks,DNP3 protocol exploitations
+Control System Attacks,Fieldbus network infiltration
+Control System Attacks,Ladder logic manipulation
+Control System Attacks,Programmable Logic Controller (PLC) rootkits
+Control System Attacks,Remote Code Execution (RCE) exploit
+Control System Attacks,Remote Terminal Unit (RTU) security breach
+Control System Attacks,Spear Phishing Email Attack
+Control System Attacks,Supervisory Control and Data Acquisition (SCADA) attack
+Control System Attacks,Zero Trust security bypass
+Cryptographic Attacks,Bleichenbacher's Attack
+Cryptographic Attacks,Cache timing attacks
+Cryptographic Attacks,Cryptographic Attacks
+Cryptographic Attacks,Differential Cryptanalysis attacks
+Cryptographic Attacks,Diffie-Hellman Key Exchange (DHKE) exploits
+Cryptographic Attacks,Double Encryption Attack
+Cryptographic Attacks,DROWN attacks
+Cryptographic Attacks,Fault Attack on AES encryption
+Cryptographic Attacks,Heartbleed vulnerability
+Cryptographic Attacks,Key Reinstalllation Attack (KRACK)
+Cryptographic Attacks,Logjam Attack
+Cryptographic Attacks,MD5 collision attack
+Cryptographic Attacks,Padding oracle attacks
+Cryptographic Attacks,RC4 bias exploitations
+Cryptographic Attacks,WEP encryption vulnerability
+Evasion Techniques,Alternate data stream (ADS) exploits
+Evasion Techniques,Control flow obfuscation
+Evasion Techniques,Evasion Techniques
+Evasion Techniques,Garbage Code Insertion technique
+Evasion Techniques,Parent Process ID (PPID) spoofing
+Evasion Techniques,Process Doppelgänging attack
+Evasion Techniques,Process Ghosting technique
+Evasion Techniques,Reflective DLL Injection
+Evasion Techniques,Self-modifying code
+Evasion Techniques,Stack Pivoting Exploit
+Evasion Techniques,User Access Control (UAC) bypass techniques
+Hardware Attacks,BIOS rootkits
+Hardware Attacks,Cold boot attacks
+Hardware Attacks,Direct Memory Access (DMA) Attack
+Hardware Attacks,Electromagnetic Fault Injection (EMFI) attack
+Hardware Attacks,Firmware downgrade attacks
+Hardware Attacks,Hardware Attacks
+Hardware Attacks,JTAG Exploitation
+Hardware Attacks,Meltdown attack
+Hardware Attacks,Radio Frequency Identification (RFID) Skimming
+Hardware Attacks,Rowhammer exploits
+Hardware Attacks,Rubber Ducky exploit
+Hardware Attacks,Spectre attack
+Hardware Attacks,Supply Chain Attack
+Hardware Attacks,Thermal Imaging Attack
+Hardware Attacks,USB Keystroke Injection
+Intrusion Techniques,Bluejacking
+Intrusion Techniques,Click Fraud
+Intrusion Techniques,Credential Harvesting
+Intrusion Techniques,Cross-Site Scripting (XSS) attacks
+Intrusion Techniques,CSRF attacks
+Intrusion Techniques,DoS/DDoS attacks
+Intrusion Techniques,Homoglyph Attack
+Intrusion Techniques,HTTP Response Splitting
+Intrusion Techniques,Intrusion Techniques
+Intrusion Techniques,Privilege escalation
+Intrusion Techniques,SQL Injection
+IoT Attacks,Bluetooth Low Energy (BLE) exploits
+IoT Attacks,bricking IoT devices
+IoT Attacks,Command Injection attack
+IoT Attacks,Firmware attacks on IoT devices
+IoT Attacks,IoT Attacks
+IoT Attacks,IoT device hijacking
+IoT Attacks,MQTT exploitation
+IoT Attacks,NFC exploits
+IoT Attacks,Resource Depletion attack
+IoT Attacks,software-defined radios (SDRs) exploits
+IoT Attacks,unauthorized IoT device access
+IoT Attacks,Wi-Fi network tampering
+Malware Attacks,Adware software
+Malware Attacks,ATM system vulnerabilities
+Malware Attacks,Botnet malware
+Malware Attacks,GPS spoofing
+Malware Attacks,InfoStealer malware
+Malware Attacks,Logic Bomb insertion
+Malware Attacks,Malware Attacks
+Malware Attacks,Polymorphic malware
+Malware Attacks,QR code malware
+Malware Attacks,RAT-as-a-Service
+Malware Attacks,Remote Access Trojan (RAT) exploit
+Malware Attacks,Scareware software
+Malware Attacks,Trojan horses
+Malware Attacks,Zero-day Exploit
+Network Attacks,ARP poisoning
+Network Attacks,BEAST Attack
+Network Attacks,DHCP spoofing
+Network Attacks,DNS Hijacking
+Network Attacks,IPv6 Router Advertisement Flood Attack
+Network Attacks,MAC Spoofing
+Network Attacks,Man-in-the-Middle (MitM) attacks
+Network Attacks,Network Attacks
+Network Attacks,Port scanning
+Network Attacks,Slowloris attacks
+Network Attacks,SYN flood attacks
+Network Attacks,VLAN Hopping attack
+Web Application Attacks,Buffer Overflow exploit
+Web Application Attacks,Content Security Policy (CSP) bypass
+Web Application Attacks,Cookie replay attacks
+Web Application Attacks,Cross-Origin Resource Sharing (CORS) misconfigurations
+Web Application Attacks,Cross-Site Scripting (XSS)
+Web Application Attacks,HTTP Verb Tampering
+Web Application Attacks,JSON Web Token (JWTs) exploits
+Web Application Attacks,LDAP injections
+Web Application Attacks,Server-Side Template Injection (SSTI) attack
+Web Application Attacks,Subdomain Takeover Attack
+Web Application Attacks,Web Application Attacks
+Web Application Attacks,WebSocket hijacking
+Web Application Attacks,XML bomb attacks
