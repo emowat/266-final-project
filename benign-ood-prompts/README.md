@@ -1,51 +1,37 @@
 ```
-Loading dataset 'databricks/databricks-dolly-15k' from Hugging Face...
-Successfully loaded 15011 items from databricks/databricks-dolly-15k.
+Using random seed: 63
+Loading and categorizing prompts from all datasets...
+Processing dataset: 'databricks/databricks-dolly-15k'...
+Successfully loaded 15011 items.
+Processing dataset: 'sahil2801/CodeAlpaca-20k'...
+Successfully loaded 20022 items.
 
---- Stats for databricks/databricks-dolly-15k ---
-  Implement : 0 prompts
-  Identify  : 483 prompts
-  Write     : 266 prompts
-  Create    : 16 prompts
-  Design    : 0 prompts
-  How       : 1005 prompts
-  What      : 4553 prompts
-  Which     : 830 prompts
-------------------------------
-Total matching prompts found in databricks/databricks-dolly-15k: 7153
-
-Loading dataset 'sahil2801/CodeAlpaca-20k' from Hugging Face...
-Successfully loaded 20022 items from sahil2801/CodeAlpaca-20k.
-
---- Stats for sahil2801/CodeAlpaca-20k ---
+--- Categorized Prompt Counts (Combined) ---
   Implement : 330 prompts
-  Identify  : 130 prompts
-  Write     : 4483 prompts
-  Create    : 4509 prompts
+  Identify  : 613 prompts
+  Write     : 4749 prompts
+  Create    : 4525 prompts
   Design    : 555 prompts
-  How       : 527 prompts
-  What      : 513 prompts
-  Which     : 19 prompts
-------------------------------
-Total matching prompts found in sahil2801/CodeAlpaca-20k: 11066
+  How       : 1532 prompts
+  What      : 5066 prompts
+  Which     : 849 prompts
+----------------------------------------------
+Total Categorized Prompts found: 18219
+Total Unfiltered Prompts found: 16814
+Saving 16814 prompts to 'benign_ood_HOLDOUT_unfiltered.csv'...
+Successfully saved file: benign_ood_HOLDOUT_unfiltered.csv
 
-Merging categorized prompts from both datasets...
+Performing stratified split on 18219 categorized prompts...
 
---- Combined Prompt Counts ---
-  Implement : 330 prompts (Dolly: 0, Alpaca: 330)
-  Identify  : 613 prompts (Dolly: 483, Alpaca: 130)
-  Write     : 4749 prompts (Dolly: 266, Alpaca: 4483)
-  Create    : 4525 prompts (Dolly: 16, Alpaca: 4509)
-  Design    : 555 prompts (Dolly: 0, Alpaca: 555)
-  How       : 1532 prompts (Dolly: 1005, Alpaca: 527)
-  What      : 5066 prompts (Dolly: 4553, Alpaca: 513)
-  Which     : 849 prompts (Dolly: 830, Alpaca: 19)
-------------------------------
-Total matching prompts found: 18219
+Total training pool size: 4000
+Total categorized holdout size: 14219
+Saving 4000 prompts to 'benign_ood_prompts.csv'...
+Successfully saved file: benign_ood_prompts.csv
+Saving 14219 prompts to 'benign_ood_HOLDOUT_categorized.csv'...
+Successfully saved file: benign_ood_HOLDOUT_categorized.csv
 
-Performing round-robin sampling to get 4000 balanced prompts...
-Collected 4000 prompts.
-Saving prompts to 'benign_ood_prompts.csv'...
-
-Success! Saved 4000 prompts
+--- OOD Data Generation Complete ---
+Created: benign_ood_prompts.csv (for prompt_gen.py)
+Created: benign_ood_HOLDOUT_categorized.csv (for evaluation)
+Created: benign_ood_HOLDOUT_unfiltered.csv (for evaluation)
 ```
