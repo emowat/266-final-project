@@ -1,0 +1,13 @@
+[project]
+name = "266-final-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "accelerate>=1.11.0",
+    "datasets>=4.4.1",
+    "sklearn-utils>=0.0.15",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
