@@ -1,3 +1,6 @@
+Select Databricks and Alpaca prompts that start with the same verbs as the
+CyberSecurity prompts.
+
 ```
 Using random seed: 63
 Loading and categorizing prompts from all datasets...

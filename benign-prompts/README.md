@@ -1,5 +1,14 @@
-# 266-final-project
-Lightweight LLM Cybersecurity Guardrails
+In order to increase diversity in the benign cybersecurity questions we investigated
+the CySecBench paper to move beyond the broad categories and sought to generate
+questions about specific sub-topics. For instance, Cloud Attacks and then specific
+Image Pull Exploits.  Below is a summary of the different sub-topics comprising the
+benign prompts.
+
+defensive_datagen.py - generates the particular prompts using similar methodology as
+the CysecBench script (included here for reference).
+deduplicate_csv.py - looks through the generated questions to remove duplicate ones
+across multiple categories/sub-topics, thus ensuring each one is slightly different.
+
 ```
 Benign Prompt Categories/Sub-Topics
 
