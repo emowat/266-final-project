@@ -15,6 +15,9 @@ notebooks:
 each of the 3 BERT models against the train/validation data
 * Holdout_Set_Evaluator.ipynb - computes accuracy and performace for each of the
 different holdout categories.
+* Holdout_Set_Evaluator_threshold.ipynb - Evaluation of the holdout sets using
+  different thresholds.  Output shows 0.9, 0.95 evaluation for ModernBERT.  Results
+  are added to HoldoutResults folder.
 * LatencyCalc.ipynb - Since the LlamaGuard/WildGard timings included tokenization,
 compute tokenization timings for the BERT models so they can be added to the final
 tallys.
