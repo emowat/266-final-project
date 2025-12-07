@@ -34,3 +34,6 @@ https://drive.google.com/drive/folders/1UoCgWYPguyHSE-mVj9Ch6DcDBQtI4F3i?usp=sha
 * guardrail_model* - v4 and v1 are used for the paper
 * train_dataset_v4.csv / val_dataset_v4.csv is the final dataset used for the V4
 model
+
+Slide Deck Presentation:
+https://docs.google.com/presentation/d/1E_42ESCS_uALaqoH6uJPdCVYU4ZIKr1X238EW7N3Bj4/edit?slide=id.g3ae1fd30d20_0_21#slide=id.g3ae1fd30d20_0_21
