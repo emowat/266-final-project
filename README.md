@@ -25,6 +25,8 @@ prompts in the train/val using TextFooler and DeepWordBug.
 they retain their original malicous intent
 * LMSYS_Benign_Validator.ipynb - attempt to collect 13000 prompts benign prompts from
 the LMSYS dataset using LLM-as-a-Judge for validation
+* WildGuard.ipynb - evaluation notebook for WildGuard on the holdout data
+* ModernBERT_and_CySecBERT_Training - initial training runs of the ModernBERT and CySecBERT models
 * utilities: Prompt generation and combiner scripts used to create datasets on the laptop
 
 Data Files are located at:
